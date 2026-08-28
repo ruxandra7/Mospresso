@@ -2,11 +2,11 @@
     margin: 0%;
     padding: 0.5%;
     box-sizing: border-box;
-    background-color: #FAF9F6;
+    background-color: #fbf7f5 ;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -33,7 +33,6 @@ main {
 
 footer {
   min-height: 100px;
-  background: PapayaWhip;
   height: 5%;
   width: 100%;
 }
@@ -71,4 +70,39 @@ footer {
 /* Rotate last bar */
 .change .bar3 {
   transform: translate(0, -11px) rotate(45deg);
+}
+
+
+.top_banner {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(253, 255, 236);
+  background-color:transparent;
+  font-size: 150%;
+}
+#imageBanner {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 45%;
+  padding: 5px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
 }
