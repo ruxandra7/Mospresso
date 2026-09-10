@@ -31,7 +31,7 @@ main {
 }
 
 footer {
-  height: 30%;
+  height: 20%;
   width: 100%;
   padding: 20px;
   text-align: center;
@@ -127,6 +127,7 @@ ul{
   background-color: #000000;
   padding: 0;
   align-items: center;
+  width: 90%;
 }
 .off-screen-menu.active{
   right: 0;
