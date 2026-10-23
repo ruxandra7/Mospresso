@@ -92,7 +92,7 @@ h2 span {
 .row {
   display: flex;
   position: absolute;  
-   top: 25%; 
+   top: 20%; 
 }
 
 .column {
