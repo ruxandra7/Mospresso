@@ -1,5 +1,6 @@
 :root {
-      --font-display: 'Google Sans Flex', Helvetica Neue, Helvetica, sans-serif;
+      --serif: 'Playfair Display', Georgia, serif;
+      --sans: 'DM Sans', 'Trebuchet MS', Arial, sans-serif;
       --bg: #f5f2ed;
       --fg: #0d1117;
 
@@ -8,15 +9,15 @@
 
 html, body {
   margin: 0;
-  background-image: url("../images/bg-bottom.svg"), url("../images/bg-top.svg");
-  background-size: 280px 300px, 380px 530px;
+
   background-position: 0 110%, 100% 0%;
   background-repeat: no-repeat;
-  background-color: hsl(0, 71%, 51%);
+  background: linear-gradient(115deg, var(--cream) 0%, #f4eadd 100%);
+
   text-align: center;
   font-family:  var(--font-display);
   font-weight: 700;
-  font-size: 1.3vw;
+  font-size: 1.8vw;
   max-width: 100%;
   overflow-x: hidden;
   letter-spacing: 0.5px;

@@ -1,69 +1,93 @@
 <!doctype html>
-<html lang="en">
-  <html lang="es">
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="description" content="" />
-      <title>MOSPRESSO</title>
-      <link rel="icon" type="image/x-icon" href="LogoIcon.png" />
-      <!-- de revizuit icon-->
-      <link href="style.css" rel="stylesheet" />
-      <script src="script.js" defer></script>
-    </head>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Coffee breaks para oficinas, pequeñas reuniones y eventos en Madrid. MOSPRESSO se encarga de preparar tu café.">
+  <meta name="theme-color" content="#fbf7f1">
+  <title>MOSPRESSO | Coffee breaks en Madrid</title>
+  <link rel="icon" type="image/x-icon" href="LogoIcon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="https://mospresso.es/" aria-label="MOSPRESSO, inicio">
+      <img src="LogoMospressoPequeno.png" alt="MOSPRESSO">
+    </a>
 
-    <body>
-      <div class="off-screen-menu">
-        <ul>
-          <li><a style="color: rgb(253, 241, 241);text-decoration: underline;background-color: rgb(25, 19, 19);"href="https://mospresso.es/">Compra nuestro cafe</a></li>
-          <li><a style="color: rgb(253, 241, 241);text-decoration: underline;background-color: rgb(25, 19, 19);"href="https://mospresso.es/nosotros-2/">Sobre nosotros</a></li>
-          <li><a style="color: rgb(253, 241, 241);text-decoration: underline;background-color: rgb(25, 19, 19);"href="mailto:info@mospresso.es?subject=CoffeeBreak%20Mospresso">Contacto</a></li>
-        </ul>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú"
+      aria-expanded="false" aria-controls="site-menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-menu" id="site-menu" aria-label="Navegación principal">
+      <a href="https://mospresso.es/">Nuestro café</a>
+      <a href="https://mospresso.es/nosotros-2/">Sobre nosotros</a>
+      <a href="tarifas.html">Tarifas</a>
+      <a href="mailto:info@mospresso.es?subject=CoffeeBreak%20Mospresso">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Tu momento, nuestro café</p>
+        <h1>Haz del café un momento <span>especial de tu día.</span></h1>
+        <p class="hero-copy">Nosotros nos encargamos de prepararlo.</p>
+        <a class="button button-primary" href="mailto:info@mospresso.es?subject=CoffeeBreak%20Mospresso">
+          Solicita tu coffee break <span aria-hidden="true">→</span>
+        </a>
       </div>
+      <div class="hero-image">
+        <img src="termos.jpeg" alt="Dispensadores de café MOSPRESSO, vasos y sobres preparados para un coffee break">
+      </div>
+    </section>
 
-      <nav>
-        <img id="LogoHeader" src="LogoMospressoPequeno.png" />
-        <div class="ham-menu">
-          <span></span>
-          <span></span>
-          <span></span>
+    <section class="intro section-wrap">
+      <p class="eyebrow">Hecho para compartir</p>
+      <h2>El café que convierte<br>una pausa en algo <span>especial.</span></h2>
+      <p class="intro-copy">
+        Llevamos el placer de un buen café a oficinas, pequeñas reuniones y encuentros profesionales.
+        Nos ocupamos de los detalles para que tú puedas disfrutar de cada pausa.
+      </p>
+    </section>
+
+    <section class="benefits section-wrap" aria-label="Ventajas de MOSPRESSO">
+      <article class="benefit">
+        <span class="benefit-icon" aria-hidden="true"></span>
+        <h3>Café de especialidad</h3>
+        <p>Una pausa con sabor y atención al detalle.</p>
+      </article>
+      <article class="benefit">
+        <span class="benefit-icon" aria-hidden="true"></span>
+        <h3>Ideal para tu equipo</h3>
+        <p>Oficinas, reuniones y coffee breaks.</p>
+      </article>
+      <article class="benefit">
+        <span class="benefit-icon pin-icon" aria-hidden="true"></span>
+        <h3>En Madrid</h3>
+        <p>Un servicio pensado para tus necesidades.</p>
+      </article>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-inner">
+        <h2>Tu próximo encuentro <span>merece un buen café.</span></h2>
+        <p>Especial para oficinas, pequeñas reuniones y coffee breaks en Madrid.</p>
+        <div class="cta-links">
+          <a class="button button-light" href="tarifas.html">Consulta las tarifas <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="mailto:info@mospresso.es?subject=CoffeeBreak%20Mospresso">Pedidos y más información</a>
         </div>
-      </nav>
-      <br/>
+      </div>
+    </section>
+  </main>
 
-      <main>
-          <div class="top_banner">
-         
-            <h2>
-               <span>
-               HAZ DEL CAFÈ <br> UN MOMENTO ESPECIAL <br> DE TU DÍA! <br />
-               </span>
-               Nosotros nos encargamos de prepararlo.
-            </h2>
-        </div>
-
-        <div class="row">
-          <div class="column">
-            <img src="termos.jpeg" style="width: 100%" />
-          </div>
-          <!-- <div class="column">
-            <img src="bolleria.jpeg" style="width: 100%" />
-          </div> -->
-        </div>
-      </main>
-
-      <footer>
-        
-        
-          <h3>Especial para oficinas, pequeñas reuniones y coffee breaks en Madrid</h3>
-          
-          <br>
-        <h3>
-          <a style="color: rgb(253, 241, 241);text-decoration: underline;background-color: rgb(25, 19, 19);"href="tarifas.html">Tarifas</a>   
-          <a style="color: rgb(253, 241, 241);text-decoration: underline;background-color: rgb(25, 19, 19);"href="mailto:info@mospresso.es?subject=CoffeeBreak%20Mospresso">Pedidos y más informacion</a>
-
-        </h3>
-      </footer>
-    </body>
-  </html>
+  <footer class="site-footer">
+    <a href="https://mospresso.es/" class="brand">
+       <img src="LogoMospressoPequeno.png" alt="MOSPRESSO">
+    </a>
+    <p>Un buen café. Un mejor momento.</p>
+  </footer>
+</body>
 </html>
